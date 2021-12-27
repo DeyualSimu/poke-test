@@ -1,6 +1,6 @@
 const productionConfig = {
-	port       : process.env.PORT,
-	concurrency: parseInt(process.env.CONCURRENCY,10),
+	port       : process.env.PORT ?? 3000,
+	concurrency: 1,
 };
 
 module.exports = productionConfig;
