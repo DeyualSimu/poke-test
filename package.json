@@ -1,0 +1,19 @@
+{
+  "name": "poke-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "node bin/server",
+    "devel": "nodemon bin/server"
+  },
+  "author": "Deyual",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.8.3",
+    "helmet": "^4.3.1",
+    "joi": "^17.5.0",
+    "pug": "^3.0.2"
+  }
+}
