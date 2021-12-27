@@ -4,8 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "node bin/server",
-    "devel": "nodemon bin/server"
+    "start": "node bin/www",
+    "devel": "nodemon bin/www"
   },
   "author": "Deyual",
   "license": "ISC",
